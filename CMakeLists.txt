@@ -24,7 +24,7 @@ endif()
 
 ExternalProject_Add(espeak_ng_external
     GIT_REPOSITORY https://github.com/ustramooner/espeak-ng.git
-    GIT_TAG 08d64bc1d9eb83a15c0f537ae52cf6008ee4b1d3 # tetun5
+    GIT_TAG 73ef61e0b9e2cb8adc92a5cca1902b3c9c678ee5 # tetun5-piper
     PREFIX ${ESPEAKNG_BUILD_DIR}
     CMAKE_ARGS
         -DCMAKE_INSTALL_PREFIX=${ESPEAKNG_INSTALL_DIR}

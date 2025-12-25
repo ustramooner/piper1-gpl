@@ -23,7 +23,7 @@ else()
 endif()
 
 ExternalProject_Add(espeak_ng_external
-    GIT_REPOSITORY git@github.com:ustramooner/espeak-ng.git
+    GIT_REPOSITORY https://github.com/ustramooner/espeak-ng.git
     GIT_TAG 08d64bc1d9eb83a15c0f537ae52cf6008ee4b1d3 tetun5
     PREFIX ${ESPEAKNG_BUILD_DIR}
     CMAKE_ARGS
